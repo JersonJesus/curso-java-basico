@@ -47,7 +47,7 @@ public class Exer15 {
 		} else {
 			System.out.println("Não forma um Triângulo.");
 		}
-		
+		System.out.println("Olá mundo");
 		input.close();
 
 	}
