@@ -11,7 +11,7 @@ maças adquiridas e escreva o valor a ser pago pelo cliente.*/
 
 import java.util.Scanner;
 
-public class Exercicio27 {
+public class Exer27 {
 
 	public static void main(String[] args) {
 		
