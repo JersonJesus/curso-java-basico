@@ -50,6 +50,8 @@ public class Exercicio27 {
 		}
 		
 		System.out.println("Total a Pagar: $" + totalPagar);
+		
+		input.close();
 
 	}
 
