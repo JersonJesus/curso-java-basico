@@ -10,9 +10,7 @@ public class Exer01 {
 		int[] vetorA = {3,4,7,6,1},
 			  vetorB = new int [5];
 		
-		for (int i = 0; i < vetorB.length; i++) {
-			vetorB[i] = vetorA[i];		
-		}
+		
 		
 		System.out.print("Vetor A = ");
 		for (int i = 0; i < vetorA.length; i++) {
@@ -20,6 +18,10 @@ public class Exer01 {
 		}
 		
 		System.out.println();
+		
+		for (int i = 0; i < vetorB.length; i++) {
+			vetorB[i] = vetorA[i];		
+		}
 		
 		System.out.print("Vetor B = ");
 		for (int i = 0; i < vetorB.length; i++) {

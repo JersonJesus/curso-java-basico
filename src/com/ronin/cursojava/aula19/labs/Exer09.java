@@ -4,6 +4,7 @@ um vetor C, onde cada elemento de C é a divisão dos respectivos
 elementos em A e B, ou seja:
 C[i] = A[i] / float(B[i]).*/
 
+import java.text.DecimalFormat;
 import java.util.Random;
 
 public class Exer09 {
@@ -34,10 +35,12 @@ public class Exer09 {
 		
 		double[] vetorC = new double[vetorA.length];
 		
+		DecimalFormat format = new DecimalFormat("###,###.##");
+		
 		System.out.print("Vetor C = ");
 		for (int i = 0; i < vetorC.length; i++) {
 			vetorC[i] = vetorA[i] / (double) vetorB[i];
-			System.out.print("[" + vetorC[i] + "]");
+			System.out.print("[" + format.format(vetorC[i])  + "]");
 		}
 		
 	}
