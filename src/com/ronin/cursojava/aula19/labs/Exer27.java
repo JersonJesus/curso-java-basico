@@ -13,13 +13,35 @@ public class Exer27 {
 		
 		int[] vetorA = new int[6];
 	
-		
 		System.out.print("VetorA = ");
 		for (int i = 0; i < vetorA.length; i++) {
-			vetorA[i] = (int) Math.round(Math.random() * 50);
+			vetorA[i] = (int) Math.round(Math.random() * 15);
 			System.out.print("[" + vetorA[i] + "] ");
 		}
-
+		
+		
+		String[] vetorB = new String[vetorA.length];
+		
+		for (int i = 0; i < vetorA.length; i++) {
+			if (vetorA[i] < 7) {
+				vetorB[i] = "a";
+			} else if (vetorA[i] == 7) {
+				vetorB[i] = "b";
+			} else if (vetorA[i] > 7 && vetorA[i] < 10) {
+				vetorB[i] = "c";
+			} else if (vetorA[i] == 10) {
+				vetorB[i] = "d";
+			} else {
+				vetorB[i] = "e";
+			}
+		}
+		
+		System.out.println();
+		
+		System.out.print("VetorB = ");
+		for (String valVetorB : vetorB) {
+			System.out.print("[" + valVetorB + "] ");
+		}
 	}
 
 }
