@@ -3,13 +3,12 @@ package com.ronin.cursojava.aula19.labs;
 imprima cada elemento do vetor A e uma mensagem indicando se o
 respectivo elemento é um número primo ou não.*/
 
-import java.util.Random;
+
 
 public class Exer33 {
 
 	public static void main(String[] args) {
 		
-		Random rand = new Random(); 
 		int[] vetor = {9,3,4,5,6};
 		
 		System.out.print("Gerando os valores = ");
