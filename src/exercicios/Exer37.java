@@ -26,7 +26,7 @@ public class Exer37 {
         System.out.print("Gênero: ");
         char sexoUsuario = input.next().charAt(0);
         
-        System.out.println("Anos de Trabalho: ");
+        System.out.print("Anos de Trabalho: ");
         int anosTrabalho = input.nextInt();
         
         double novoSalario = 0;
@@ -50,5 +50,7 @@ public class Exer37 {
         }
         
         System.out.println("Novo Salário: " + novoSalario);
+        
+        input.close();
     }
 }
