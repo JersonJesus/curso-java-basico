@@ -29,5 +29,7 @@ public class Exer25 {
            System.out.println("NÃO É UM TRIÂNGULO"); 
         }
         
+        input.close();
+        
     }
 }
