@@ -16,7 +16,6 @@ public class EstruturaWhile {
                 break;
             }
             
-            
             System.out.println(c + "º Cambalhota");
             
             
