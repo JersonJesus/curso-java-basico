@@ -41,8 +41,6 @@ public class Exer55 {
                 } 
             }     
         }
-        
-
         input.close();
     }
 }
