@@ -51,6 +51,6 @@ public class Exer63 {
         System.out.println("O somatório entre todos os valores: " + somaNumeros);
         System.out.println("Menor valor digitado: " + menorValor);
         System.out.println("Média entre todos os valores: " + (double)somaNumeros / c);
-        System.out.println("Valores pares: " + valoresPares);
+        System.out.println("Valores pares: " + valoresPares);   
     }
 }
