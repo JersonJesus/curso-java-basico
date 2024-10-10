@@ -24,5 +24,7 @@ public class Números {
         } while (respostaUsuario.equalsIgnoreCase("SIM")|| respostaUsuario.equalsIgnoreCase("s"));
         
         System.out.println("Soma Total: " + soma);
+        
+        input.close();
     }
 }
