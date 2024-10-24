@@ -4,13 +4,8 @@ APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como
 parâmetro o resultado retornado pela função Media().*/
 package exercicios;
 
-import static exercicios.Exer96.media;
 import java.util.Scanner;
 
-/**
- *
- * @author Jerson Vndré
- */
 public class Exer100 {
 
     public static double media(double nota1, double nota2) {
